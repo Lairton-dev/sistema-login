@@ -8,7 +8,8 @@
 
 # Como configurar o sistema no seu PC?
 
-- Antes, o XAMPP deve está instalado e já configurado em seu PC, ele será necessário para simular o servidor php local e banco de dados e para que o nosso sistema funcione, link para download: https://www.apachefriends.org/download.html.
+- Antes, instale o XAMPP em sua máquina clicando no link: https://www.apachefriends.org/download.html.
+  ![xampp](https://github.com/Lairton-dev/sistema-login/blob/master/documents/Captura%20de%20tela%202024-06-12%20100924.png?raw=true)
 
 - Com o XAMPP instalado, na sua barra de busca do Windows que vc encontra nas sua barra de tarefas. Pesquise por "XAMPP Control Painel" e execute o programa.
 
