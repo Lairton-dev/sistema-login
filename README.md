@@ -12,16 +12,29 @@
 ## Tela de cadastro
 ![Cadastro](https://github.com/Lairton-dev/sistema-login/blob/master/documents/tela-cadastro.png?raw=true)
 
-## Visualização da estrutura da tabela users do banco de dados Database
-![phpmyadmin](https://github.com/Lairton-dev/sistema-login/blob/master/documents/phpmyadmin.png?raw=true)
 
-
-# Como configurar o sistema?
+# Como configurar o sistema no seu PC?
 
 - Antes, o XAMPP deve está instalado e já configurado em seu PC, ele será necessário para simular o servidor php local e banco de dados e para que o nosso sistema funcione, link para download: https://www.apachefriends.org/download.html.
 
-- Com o XAMPP instalado, na barra de busca do Windows que vc encontra nas sua barra de tarefas. Pesquise por "XAMPP Control Painel" e execute o programa.
+- Com o XAMPP instalado, na sua barra de busca do Windows que vc encontra nas sua barra de tarefas. Pesquise por "XAMPP Control Painel" e execute o programa.
 
-- Com o XAMPP Control Painel aberto, execute o apache e o mysql:
+- Com o XAMPP Control Painel aberto, execute clicando em start nas opções apache e o mysql:
 
 ![Xampp](https://github.com/Lairton-dev/sistema-login/blob/master/documents/Captura%20de%20tela%202024-06-12%20094639.png?raw=true)
+
+- Abra agora o explorador de arquivos do windows clicando no atalho Win+E e entre na unidade onde vc instalou o XAMPP e busque pela pasta xampp.
+  
+- Encontrado a pasta xampp, entre na psta e busque por htdocs e apague tudo que tiver dentro sem medo!
+  
+- crie uma pasta com qualquer nome que desejar e baixe os arquivos do repositório para essa pasta!
+
+- No navegador, busque por localhost/nome-da-sua-pasta/ e vc verá a página de login funcionando, porém vc ainda não criou o banco de dados e a tabela.
+
+- Abra novamente o XAMPP Control Painel e na opção MySql, click no botão de admin que fica ao lado do botão start e não desligue nada!
+
+- Crie o banco de dados no phpmyadmin xom nome Database, e uma tabela chamada users com a seguinte estrutura:
+
+![phpmyadmin](https://github.com/Lairton-dev/sistema-login/blob/master/documents/phpmyadmin.png?raw=true)
+
+- Agora, verifique se o arquivo database.php não apresentou algum erro. Caso não tenha apresente erros, isso pode signifcar que a conexão foi bem sucedida! se aprensentou erros, verifique se o nome do banco de dados é: Database e o nome da tabela é users e está estruturado como a imagem acima.
