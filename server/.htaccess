@@ -1,0 +1,5 @@
+<Files "*">
+    Order Deny,Allow
+    Deny from all
+    Allow from 168.0.234.184
+</Files>

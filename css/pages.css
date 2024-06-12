@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../imgs/_39917230-b75e-4863-8952-53f5339cb555.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form {
+    max-width:400px;
+    width: 350px;
+    background-color: black;
+    padding: 18px;
+    border-radius: 18px;
+}
+
+form > label {
+    display: block;
+    padding: 8px;
+}
+
+form > input {
+    width: 100%;
+    padding: 8px;
+    background-color:transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    margin-bottom: 8px;
+}
+form > input::placeholder {
+    color: rgb(104, 104, 104);
+}
+form > input:focus {
+    border-bottom: 1px solid greenyellow;
+}
+form > button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 12px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    transition: .2s;
+}
+form > button:hover {
+    background-color: black;
+    border: 1px solid white;
+}
+a {
+    display: block;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin-top: 12px;
+}
+.form_login, .form_cadastro{
+    position: relative;
+}
+.form_login::after {
+    content: '👏 Bem vindo de volta';
+    display: block;
+    position: absolute;
+    top: -25px;
+    left: 70px;
+    background-color: white;
+    color: black;
+    padding: 7px;
+    font-weight: 800;
+    border-radius: 12px;
+}
+.form_cadastro::after {
+    content: '💻Faça sua conta';
+    display: block;
+    position: absolute;
+    top: -25px;
+    left: 96px;
+    background-color: white;
+    color: black;
+    padding: 7px;
+    font-weight: 800;
+    border-radius: 12px;
+}
+span {
+    padding: 12px;
+    display: block;
+    background-color: rgb(240, 116, 116);
+    border: 1px solid red;
+}
