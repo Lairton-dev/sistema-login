@@ -6,13 +6,6 @@
 ![MySql](https://img.shields.io/badge/-MysQl-0D1117?style=for-the-badge&logo=MysQl&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![XAMPP](https://img.shields.io/badge/-XAMPP-0D1117?style=for-the-badge&logo=XAMPP&labelColor=0D1117)&nbsp;
 
-## Tela de Login
-![Login](https://github.com/Lairton-dev/sistema-login/blob/master/documents/tela-login.png?raw=true)
-
-## Tela de cadastro
-![Cadastro](https://github.com/Lairton-dev/sistema-login/blob/master/documents/tela-cadastro.png?raw=true)
-
-
 # Como configurar o sistema no seu PC?
 
 - Antes, o XAMPP deve está instalado e já configurado em seu PC, ele será necessário para simular o servidor php local e banco de dados e para que o nosso sistema funcione, link para download: https://www.apachefriends.org/download.html.
@@ -29,7 +22,7 @@
   
 - crie uma pasta com qualquer nome que desejar e baixe os arquivos do repositório para essa pasta, exceto a pasta documents do repositório.
 
-- No navegador, busque por localhost/nome-da-sua-pasta/ e vc verá a página de login funcionando, porém vc ainda não criou o banco de dados e a tabela.
+- No seu navegador de internet, busque por localhost/nome-da-sua-pasta/ e vc verá a página de login funcionando, porém vc ainda não criou o banco de dados e a tabela.
 
 - Abra novamente o XAMPP Control Painel e na opção MySql, click no botão de admin que fica ao lado do botão start e não desligue nada!
 
@@ -38,3 +31,14 @@
 ![phpmyadmin](https://github.com/Lairton-dev/sistema-login/blob/master/documents/phpmyadmin.png?raw=true)
 
 - Agora, verifique se o arquivo database.php não apresentou algum erro. Caso não tenha apresente erros, isso pode signifcar que a conexão foi bem sucedida! se aprensentou erros, verifique se o nome do banco de dados é: Database e o nome da tabela é users e está estruturado como a imagem acima.
+
+- Verifique agora se o sistema está funcionando corretamente!
+
+  
+## Tela de Login
+![Login](https://github.com/Lairton-dev/sistema-login/blob/master/documents/tela-login.png?raw=true)
+
+## Tela de cadastro
+![Cadastro](https://github.com/Lairton-dev/sistema-login/blob/master/documents/tela-cadastro.png?raw=true)
+
+
