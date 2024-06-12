@@ -36,11 +36,12 @@
 
 ![phpmyadmin](https://github.com/Lairton-dev/sistema-login/blob/master/documents/phpmyadmin.png?raw=true)
 
-- Agora, verifique se o arquivo database.php não apresentou algum erro. Caso não tenha apresente erros, isso pode signifcar que a conexão foi bem sucedida! se aprensentou erros, verifique se o nome do banco de dados é: Database e o nome da tabela é users e está estruturado como a imagem acima.
+- Agora, verifique se o arquivo database.php na pasta server não apresentou algum erro. Caso não tenha apresente erros, isso pode signifcar que a conexão foi bem sucedida! se aprensentou erros, verifique se o nome do banco de dados é: database e o nome da tabela é users e está estruturado corretamente como a imagem acima.
 
-- Verifique agora se o sistema está funcionando corretamente!
+- Verifique agora se o sistema está funcionando corretamente e bom teste.
 
-  
+# Visualização do projeto:
+
 ## Tela de Login
 ![Login](https://github.com/Lairton-dev/sistema-login/blob/master/documents/tela-login.png?raw=true)
 
