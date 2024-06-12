@@ -20,7 +20,7 @@
 
 ![Xampp](https://github.com/Lairton-dev/sistema-login/blob/master/documents/Captura%20de%20tela%202024-06-12%20094639.png?raw=true)
 
-- Abra agora o explorador de arquivos do windows clicando no atalho Win+E e entre na unidade onde vc instalou o XAMPP e busque pela pasta xampp.
+- Abra agora o explorador de arquivos do windows clicando no atalho Win+E e entre na unidade onde você instalou o XAMPP e busque pela pasta xampp (pasta da instalação do xampp).
   
 - Encontrado a pasta xampp, entre na psta e busque por htdocs e apague tudo que tiver dentro sem medo!
   
