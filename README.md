@@ -27,7 +27,7 @@
   
 - Encontrado a pasta xampp, entre na psta e busque por htdocs e apague tudo que tiver dentro sem medo!
   
-- crie uma pasta com qualquer nome que desejar e baixe os arquivos do repositório para essa pasta!
+- crie uma pasta com qualquer nome que desejar e baixe os arquivos do repositório para essa pasta, exceto a pasta documents do repositório.
 
 - No navegador, busque por localhost/nome-da-sua-pasta/ e vc verá a página de login funcionando, porém vc ainda não criou o banco de dados e a tabela.
 
