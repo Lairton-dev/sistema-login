@@ -32,7 +32,7 @@
 
   ![xampp](https://github.com/Lairton-dev/sistema-login/blob/master/documents/Captura%20de%20tela%202024-06-12%20101907.png?raw=true)
 
-- Crie o banco de dados no phpmyadmin com nome **Database**, e uma tabela chamada **users** com a seguinte estrutura:
+- Crie o banco de dados no phpmyadmin com nome **database**, e uma tabela chamada **users** com a seguinte estrutura:
 
 ![phpmyadmin](https://github.com/Lairton-dev/sistema-login/blob/master/documents/phpmyadmin.png?raw=true)
 
