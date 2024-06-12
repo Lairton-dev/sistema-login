@@ -60,6 +60,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/pages.css">
+    <style>
+        #avatar {
+            display: none;
+        }
+        label[for=avatar] {
+            padding: 8px;
+            background-color: orange;
+            margin: 8px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: 0.2s;
+        }
+        label[for=avatar]:hover {
+            background-color: blue;
+        }
+    </style>
     <title>Cadastro</title>
 </head>
 <body>
@@ -70,7 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="email" id="email" name="email" required placeholder="Insira seu email">
         <label for="password">Senha</label>
         <input type="password" id="password" name="password" required placeholder="Insira sua senha">
-        <label for="avatar">Avatar</label>
+        <label for="avatar">Escolha um Avatar</label>
         <input type="file" id="avatar" name="avatar" required>
         <button type="submit">Cadastre-se</button>
         <a href="index.php">Entrar</a>
