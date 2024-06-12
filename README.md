@@ -14,3 +14,12 @@
 
 ## Visualização da estrutura da tabela users do banco de dados Database
 ![phpmyadmin](https://github.com/Lairton-dev/sistema-login/blob/master/documents/phpmyadmin.png?raw=true)
+
+
+# Como configurar o sistema?
+
+- Antes, o XAMPP deve está instalado e já configurado em seu PC, ele será necessário para simular o servidor php local e banco de dados e para que o nosso sistema funcione, link para download: https://www.apachefriends.org/download.html.
+
+- Com o XAMPP instalado, na barra de busca do Windows que vc encontra nas sua barra de tarefas. Pesquise por "XAMPP Control Painel" e execute o programa.
+
+- Com o XAMPP Control Painel aberto, execute o apache e o mysql:
