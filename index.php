@@ -1,10 +1,10 @@
 <?php
 //inicia sessão
 session_start();
-// conexão da base de dados
+// conexão com a base de dados ./server/database.php
 include_once("./server/database.php");
 
-// Verifica se o formulário foi submetido
+// Verifica se o formulário do login foi submetido
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Limpa os dados dos campos de e-mail e senha para evitar injeção de SQL
     $email = mysqli_real_escape_string($conn, $_POST["email"]);
@@ -12,10 +12,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Consulta para verificar se o usuário existe na tabela users
     $sql = "SELECT * FROM users WHERE email = '$email'";
+    // $conn é a variavel de conexão com o banco de dados no arquivo database.php
     $result = mysqli_query($conn, $sql);
 
     // Verifica se a consulta retornou algum resultado
     if ($result && mysqli_num_rows($result) > 0) {
+        // criar um array com todos linhas da tabela users do banco de dados, ["ID", "Username", "email", "senha", "Avatar", "created_at"]
         $row = mysqli_fetch_assoc($result);
         $senha_hash = $row['senha'];
 
