@@ -5,7 +5,7 @@ session_start();
 // Conexão com a base de dados
 include_once("./server/database.php");
 
-// Verifica se o formulário foi submetido
+// Verifica se o formulário de cadsstro foi submetido
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Limpa os dados dos campos de usuário, email e senha para evitar injeção de SQL
     $user = mysqli_real_escape_string($conn, $_POST["user"]);
