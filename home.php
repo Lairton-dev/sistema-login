@@ -22,6 +22,6 @@ $create = $_SESSION["data_create"];
     <title>Home</title>
 </head>
 <body>
-    // aqui vai ficar o resto do sistema.
+    <!-- aqui vai ficar o resto do sistema. -->
 </body>
 </html>
