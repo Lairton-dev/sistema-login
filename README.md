@@ -9,9 +9,12 @@
 # Como configurar o sistema no seu PC?
 
 - Antes, instale o XAMPP em sua máquina clicando no link: https://www.apachefriends.org/download.html.
+  
   ![xampp](https://github.com/Lairton-dev/sistema-login/blob/master/documents/Captura%20de%20tela%202024-06-12%20100924.png?raw=true)
 
 - Com o XAMPP instalado, na sua barra de busca do Windows que vc encontra nas sua barra de tarefas. Pesquise por "XAMPP Control Painel" e execute o programa.
+
+  ![xampp](https://github.com/Lairton-dev/sistema-login/blob/master/documents/Captura%20de%20tela%202024-06-12%20101523.png?raw=true)
 
 - Com o XAMPP Control Painel aberto, execute clicando em start nas opções apache e o mysql:
 
